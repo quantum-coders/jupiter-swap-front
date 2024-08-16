@@ -113,8 +113,7 @@ jupiter-swap-frontend/
 
 ## Join Us
 
-We are Quantum Coders, the team behind this project. LunaAI is one of our ventures within the Solana ecosystem, and we’re excited to share this journey with you. If you’re interested in the backend setup, follow this
-link to the [Jupiter Swap Backend](https://github.com/quantum-coders/jupiter-swap-api) repository.
+We are Quantum Coders, the team behind this project. We are passionate about blockchain technology and its potential to revolutionize the world. Join us on our journey to build innovative solutions and contribute to the decentralized future.
 
 **Connect with us:**
 
@@ -122,6 +121,7 @@ link to the [Jupiter Swap Backend](https://github.com/quantum-coders/jupiter-swa
 - **LunaAI on X:** [@lunadefiai](https://x.com/lunadefiai)
 - **Bonkhemist on X:** [@bonkhemist](https://x.com/bonkhemist)
 - **_0xJesus on X:** [@0xjesus](https://x.com/_0xjesus)
+
 ## Contributing
 
 We welcome contributions! If you’d like to contribute, fork the repository, create a feature branch, and submit a pull request. We look forward to collaborating with you.
@@ -131,5 +131,3 @@ We welcome contributions! If you’d like to contribute, fork the repository, cr
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-This version is straightforward and professional, highlighting your project’s key aspects and inviting others to join and contribute.
