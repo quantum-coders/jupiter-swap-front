@@ -1,75 +1,118 @@
-# Nuxt 3 Minimal Starter
+# Jupiter Swap Frontend
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to the **Jupiter Swap Frontend** project! This repository contains the frontend code for a modern web application built with Nuxt 3, Solana, Pinia, and custom styling using Sass/SCSS. This project is designed to provide a clean and efficient interface for interacting with the Solana blockchain.
 
-## Setup
+## Table of Contents
 
-Make sure to install the dependencies:
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Join Us](#join-us)
+- [Contributing](#contributing)
+- [License](#license)
 
-```bash
-# npm
-npm install
+## Overview
 
-# pnpm
-pnpm install
+This project is the frontend part of a decentralized application that connects with the Solana blockchain. Built with Nuxt 3, it leverages the power of Vue.js and Pinia for state management, offering a responsive and dynamic user experience.
 
-# yarn
-yarn install
+## Features
 
-# bun
-bun install
+- **Nuxt 3 Integration:** Built with Nuxt 3 for a modern and streamlined development experience.
+- **Solana Blockchain:** Seamlessly interacts with Solana, leveraging its capabilities for decentralized applications.
+- **Pinia State Management:** Efficient state management with Pinia, perfectly suited for Vue.js.
+- **Custom Styling:** Styled using Sass/SCSS for maintainable and scalable design.
+- **Clear Separation:** Separate repositories for frontend and backend to keep the codebase clean and modular.
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/jupiter-swap-frontend.git
+   cd jupiter-swap-frontend
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   yarn install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   yarn dev
+   ```
+
+4. **Build for production:**
+
+   ```bash
+   yarn build
+   ```
+
+## Getting Started
+
+To start developing, clone the repository, install the dependencies, and run the development server. You’ll be able to see your changes live on `localhost:3000`.
+
+## Project Structure
+
+The project is organized as follows:
+
+```
+jupiter-swap-frontend/
+│
+├── assets/
+│   └── styles/
+│       ├── globals.sass
+│       ├── main.scss
+│       ├── plugins.sass
+│       └── variables.sass
+│
+├── components/
+│   ├── Plattform/
+│   │   ├── AppBar.vue
+│   │   └── Footer.vue
+│   └── Solana/
+│       └── WalletConnect.vue
+│
+├── composables/
+│   └── usePrettyToast.js
+│
+├── layouts/
+│   └── default.vue
+│
+├── pages/
+│   └── index.vue
+│
+├── stores/
+│   └── solanaStore.js
+│
+├── nuxt.config.ts
+├── app.vue
+└── package.json
 ```
 
-## Development Server
+## Join Us
 
-Start the development server on `http://localhost:3000`:
+We are Quantum Coders, the team behind this project. LunaAI is one of our ventures within the Solana ecosystem, and we’re excited to share this journey with you. If you’re interested in the backend setup, stay tuned for our upcoming post where we’ll cover that in detail.
 
-```bash
-# npm
-npm run dev
+**Connect with us:**
 
-# pnpm
-pnpm run dev
+- **Quantum Coders on X:** [@qcodersteam](https://x.com/qcodersteam)
+- **LunaAI on X:** [@lunadefiai](https://x.com/lunadefiai)
 
-# yarn
-yarn dev
+## Contributing
 
-# bun
-bun run dev
-```
+We welcome contributions! If you’d like to contribute, fork the repository, create a feature branch, and submit a pull request. We look forward to collaborating with you.
 
-## Production
+## License
 
-Build the application for production:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-```bash
-# npm
-npm run build
+---
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This version is straightforward and professional, highlighting your project’s key aspects and inviting others to join and contribute.
