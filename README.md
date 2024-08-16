@@ -13,6 +13,13 @@ Welcome to the **Jupiter Swap Frontend** project! This repository contains the f
 - [Contributing](#contributing)
 - [License](#license)
 
+## Tutorial
+
+We created a tutorial to help you get started with this project. Follow the steps in the tutorial to set up the frontend and backend, and start building your decentralized application.
+
+- **Frontend Tutorial:** [Jupiter Swap Frontend Tutorial](https://medium.com/@0xjesus/build-your-solana-swap-dapp-with-vue-js-e363f5956a69)
+- **Backend Tutorial:** [Jupiter Swap Backend Tutorial](https://medium.com/@0xjesus/building-a-solana-swap-api-with-node-js-a-comprehensive-guide-55333389c0f6)
+
 ## Overview
 
 This project is the frontend part of a decentralized application that connects with the Solana blockchain. Built with Nuxt 3, it leverages the power of Vue.js and Pinia for state management, offering a responsive and dynamic user experience.
@@ -98,13 +105,15 @@ jupiter-swap-frontend/
 
 ## Join Us
 
-We are Quantum Coders, the team behind this project. LunaAI is one of our ventures within the Solana ecosystem, and we’re excited to share this journey with you. If you’re interested in the backend setup, stay tuned for our upcoming post where we’ll cover that in detail.
+We are Quantum Coders, the team behind this project. LunaAI is one of our ventures within the Solana ecosystem, and we’re excited to share this journey with you. If you’re interested in the backend setup, follow this
+link to the [Jupiter Swap Backend](https://github.com/quantum-coders/jupiter-swap-api) repository.
 
 **Connect with us:**
 
 - **Quantum Coders on X:** [@qcodersteam](https://x.com/qcodersteam)
 - **LunaAI on X:** [@lunadefiai](https://x.com/lunadefiai)
-
+- **Bonkhemist on X:** [@bonkhemist](https://x.com/bonkhemist)
+- **_0xJesus on X:** [@0xjesus](https://x.com/_0xjesus)
 ## Contributing
 
 We welcome contributions! If you’d like to contribute, fork the repository, create a feature branch, and submit a pull request. We look forward to collaborating with you.
