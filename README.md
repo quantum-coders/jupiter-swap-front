@@ -71,7 +71,6 @@ The only variable you need to set is the `SOLANA_RPC_URL` in the `.env` file.
 
 Since we are swapping real tokens we recommend using the mainnet cluster for the RPC URL.
 
-```bash
 
 ## Project Structure
 
