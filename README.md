@@ -65,6 +65,14 @@ Follow these steps to set up the project locally:
 
 To start developing, clone the repository, install the dependencies, and run the development server. You’ll be able to see your changes live on `localhost:3000`.
 
+## Environment Variables
+
+The only variable you need to set is the `SOLANA_RPC_URL` in the `.env` file. 
+
+Since we are swapping real tokens we recommend using the mainnet cluster for the RPC URL.
+
+```bash
+
 ## Project Structure
 
 The project is organized as follows:
