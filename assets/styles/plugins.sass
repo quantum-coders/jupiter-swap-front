@@ -1,0 +1,152 @@
+/// let's give a personality, 8 bit video game
+
+.swv-button-trigger
+
+	background: var(--bs-light-bg-subtle)
+	border: 0
+	display: flex
+	align-items: center
+	padding: 0.25rem 0.5rem
+	font-size: 0.75rem
+	z-index: 100
+	border-radius: 0.25rem
+	cursor: pointer
+	transition: background 0.25s
+	&:hover
+		background: var(--bs-light-bg)
+
+
+	img
+		width: 20px
+		height: auto
+		margin-right: 0.25rem
+
+	p
+		margin: 0
+// colors and more po
+.swv-dropdown
+	&:hover
+		.swv-dropdown-list
+			display: flex
+			flex-direction: column
+			list-style-type: none
+
+	.swv-dropdown-list
+		min-width: 200px
+		position: absolute
+		right: 0
+		display: none
+		width: 100%
+		top: 100%
+		z-index: 1000
+		padding: 1rem 0 0
+		isolation: isolate
+
+		&:before
+			box-shadow: 0 0.5rem 0.5rem rgba(black, 10%)
+			content: ''
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			height: calc(100% - 16px)
+			background: var(--bs-body-bg)
+
+		li
+			display: block
+			margin: 0
+			color: var(--bs-body-color)
+			padding: 0.5rem 1rem
+			cursor: pointer
+
+			&:hover
+				background: var(--bs-light-bg-subtle)
+
+.swv-modal
+	position: fixed
+	z-index: 100
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	border-radius: 0.25rem
+	background: rgba(0, 0, 0, 0.5)
+	display: flex
+	justify-content: center
+	align-items: center
+
+	.swv-modal-overlay
+		background: rgba(black, 10%)
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		position: absolute
+
+	.swv-modal-container
+		background: var(--bs-body-bg)
+		border-radius: 0.25rem
+		box-shadow: 0 0 2rem rgba(black, 30%)
+		position: relative
+		width: 100%
+		max-width: 30rem
+		z-index: 1
+
+		.swv-modal-wrapper
+			padding: 1rem
+			width: 490px
+			height: 290px
+			border-radius: 0.25rem
+			background: var(--bs-body-bg)
+			box-shadow: 0 0 2rem rgba(black, 30%)
+			border-radius: 0.25rem
+			border-background: rgba(0, 0, 0, 0.5)
+
+		.swv-modal-title
+			font-size: 1rem
+			text-align: center
+			margin-bottom: 2rem
+
+		.swv-modal-button-close
+			position: absolute
+			top: 0.5rem
+			right: 0.5rem
+			background: transparent
+			border: none
+
+		.swv-modal-list
+			list-style: none
+			padding: 0
+			margin: 0
+
+			li
+				margin-bottom: 1rem
+
+				&:last-child
+					margin-bottom: 0
+
+				.swv-button
+					background: transparent
+					border: none
+					flex-wrap: wrap
+					cursor: pointer
+					display: flex
+					flex-direction: row
+					align-items: center
+					gap: 1rem
+					width: 100%
+					transition: background 0.25s
+
+					.swv-wallet-status
+						margin-left: auto
+
+					p
+						margin: 0
+
+					.swv-button-icon
+						display: block
+						width: 30px
+
+						img
+							width: 100%
+							height: auto
